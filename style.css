@@ -1,0 +1,31 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial;
+}
+
+.container {
+  width: 90%;
+  margin: 40px auto;
+}
+
+select {
+  padding: 6px;
+  margin-bottom: 20px;
+}
+
+#products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
