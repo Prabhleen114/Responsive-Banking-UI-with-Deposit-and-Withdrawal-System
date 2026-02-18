@@ -1,0 +1,85 @@
+# Project Documentation
+
+## Project Title
+Responsive Banking UI with Deposit and Withdrawal System
+
+---
+
+## Objective
+
+To design and implement a responsive banking interface that supports deposit and withdrawal operations with real-time balance updates and validation.
+
+---
+
+## Functional Requirements
+
+- Display current account balance
+- Allow user input for deposit amount
+- Allow user input for withdrawal amount
+- Prevent invalid or negative transactions
+- Provide responsive design across devices
+- Display user feedback for invalid inputs
+
+---
+
+## Technical Implementation
+
+### Front-End Structure
+- Semantic HTML layout
+- CSS Flexbox for structured layout
+- Media queries for responsiveness
+
+### JavaScript Logic
+- Event listeners for transaction buttons
+- DOM manipulation for updating balance
+- Input validation checks
+- Conditional logic to prevent negative balance withdrawals
+
+---
+
+## System Requirements
+
+### Hardware
+- Minimum 4GB RAM
+- Standard modern processor
+- 1366×768 display or higher
+
+### Software
+- Modern web browser (Chrome, Firefox, Edge)
+- VS Code or any code editor
+
+---
+
+## Core Concepts Demonstrated
+
+- CSS Box Model
+- Flexbox layout system
+- Responsive design with media queries
+- JavaScript template literals
+- State management in front-end applications
+
+---
+
+# Conceptual Understanding (Interview Preparation)
+
+### 1. Explain the CSS Box Model components
+The CSS Box Model consists of:
+- Content
+- Padding
+- Border
+- Margin
+
+These layers determine spacing and layout behavior of elements.
+
+---
+
+### 2. How do media queries enable responsiveness?
+Media queries apply different CSS rules based on screen size, resolution, or device characteristics, allowing layouts to adapt to various devices.
+
+Example:
+```css
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
